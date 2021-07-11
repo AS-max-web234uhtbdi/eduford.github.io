@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study material production branch coep</title>
+    <link rel="stylesheet" href="style_sheet_0.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a  href="#"><img  src="logo.png" alt=""></a>
+            <div class="nav_link" id="navL_links">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="https://www.facebook.com/coep.placements.20.21">PLACEMENTS</a></li>
+                    <li><a href="contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()" ></i>
+        </nav>
+        <div class="clg">
+            <h1>College of Engineering Pune </h1>
+            <p>Department of Manufacturing Engineering and Industrial Management</p>
+            <a href="Home.html" class="button">COURSEWARE</a>
+        </div>
+    </section>
+    
+<script>
+    var navL_links=document.getElementById("navL_links");
+
+    function showmenu()
+    {
+        navL_links.style.right="0";
+    }
+
+    function hidemenu()
+    {
+        navL_links.style.right="-200px";
+    }
+</script>
+</body>
+</html>

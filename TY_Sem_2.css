@@ -1,0 +1,37 @@
+.img1
+{
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.781), 0 6px 20px 0 rgba(61, 61, 61, 0.781);
+    width: 100%;
+    height: 700px;
+}
+@media only screen and (max-width: 500px)
+{
+.img1
+{
+    box-shadow: 0 4px 8px 0 rgba(56, 56, 56, 0.781), 0 6px 20px 0 rgba(61, 61, 61, 0.781);
+    width: 100%;
+    height: 300px;
+}
+}
+.MF
+{
+   
+    display: inline-block;
+    padding: 6px 30px 6px 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sofia;
+    /*background-image: linear-gradient(#ffffff,#ffffff),radial-gradient(circle at top left,#00e1ff,#000000d7);*/
+    border: 2px solid rgb(136, 136, 136) ;
+    cursor: pointer;
+    border-radius:  15px;
+    color: black;
+    background-clip: content-box,border-box;
+    background: transparent;
+}
+.MF:hover
+{
+    border: 2px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
